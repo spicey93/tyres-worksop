@@ -1,16 +1,190 @@
----
-
----
-
+<!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Tyres Worksop - Mobile Tyre Service</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+
+    <body>
+        <header class="container">
+            <span class="logo">Worksop Mobile Tyres</span>
+            <span>Call <a href="tel:01909251020">01909 25 10 20</a></span>
+        </header>
+        <nav class="container">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <main class="container">
+            <section id="home">
+                <h1>Mobile Tyre Fitting & Repair in Worksop</h1>
+                <a href="tel:01909251020" role="button" class="call-btn"
+                    >Call 01909 25 10 20</a
+                >
+            </section>
+            <h2>Home</h2>
+            <p>
+                Welcome to Worksop Mobile Tyres, your one-stop solution for
+                mobile tyre fitting and repair services in Worksop and the
+                surrounding areas. Our team of experienced professionals is
+                dedicated to providing high-quality tyre services at your
+                convenience. Whether you need mobile tyre fitting, puncture
+                repair, or locking wheel nut removal, we've got you covered.
+            </p>
+            <p>
+                With our mobile service, you can have your tyres fitted or
+                repaired at your home, office, or any location of your choice.
+                Say goodbye to the hassle of visiting a tyre shop – we bring the
+                tyre shop to you!
+            </p>
+            <p>
+                Contact us today to schedule an appointment or to learn more
+                about our services. We look forward to serving you!
+            </p>
+        </main>
+        <section class="container">
+            <h2>Mobile Tyre Fitting</h2>
+            <p>
+                At Worksop Mobile Tyres, we offer convenient mobile tyre fitting
+                services to keep your vehicle safe on the road. Our team of
+                experienced technicians will come to your location equipped with
+                state-of-the-art tools and equipment to fit new tyres onto your
+                vehicle quickly and efficiently.
+            </p>
+            <p>
+                Whether you're at home, work, or stuck on the side of the road,
+                our mobile tyre fitting service ensures that you get back on the
+                road with minimal downtime. Trust us for reliable and
+                professional tyre fitting services that you can count on.
+            </p>
+        </section>
+        <section class="container">
+            <h2>Mobile Puncture Repair</h2>
+            <p>
+                Dealing with a flat tyre can be frustrating, but with Worksop
+                Mobile Tyres, you don't have to worry. Our mobile puncture
+                repair service is designed to get you back on the road quickly
+                and safely.
+            </p>
+            <p>
+                Our skilled technicians will come to your location to assess the
+                damage and perform the necessary repairs on-site. Whether you
+                have a minor puncture or a more serious issue, we have the
+                expertise and equipment to fix it right away.
+            </p>
+        </section>
+        <section class="container">
+            <h2>Locking Wheel Nut Removal</h2>
+            <p>
+                If you've lost your wheel nut key or encountered a stripped or
+                damaged locking wheel nut, Worksop Mobile Tyres is here to help.
+                Our locking wheel nut removal service is designed to remove
+                stubborn or damaged wheel nuts quickly and safely.
+            </p>
+            <p>
+                Using specialized tools and techniques, our technicians can
+                remove locking wheel nuts without causing damage to your
+                vehicle's wheels or tyres. Don't let a stuck wheel nut ruin your
+                day – trust Worksop Mobile Tyres to get the job done right.
+            </p>
+        </section>
+        <section id="contact" class="container">
+            <h2>Contact Us</h2>
+            <p>
+                Ready to schedule an appointment or have questions about our
+                services? Get in touch with us today! You can reach us by phone
+                at <a href="tel:01909251020">01909 25 10 20</a>. Our friendly
+                team is standing by to assist you with all your tyre needs.
+            </p>
+        </section>
+    </body>
 </html>
+
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .container {
+        max-width: 1000px;
+        margin: 20px auto;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header a {
+        color: crimson;
+    }
+
+    nav {
+        background-color: crimson;
+        padding: 10px;
+    }
+
+    nav ul {
+        margin: auto 10px;
+        padding-left: 0px;
+        display: flex;
+    }
+
+    nav ul li {
+        list-style: none;
+        padding-left: 20px;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: white;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    form label {
+        display: block;
+    }
+
+    .logo {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    #home {
+        background-image: url("tyres-worksop.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        min-height: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: white;
+    }
+
+    #home h1 {
+        background-color: black;
+        padding: 10px;
+    }
+
+    #home .call-btn {
+        background-color: crimson;
+        color: white;
+        padding: 15px;
+        text-decoration: none;
+    }
+
+    #contact a {
+        color: crimson;
+    }
+</style>
