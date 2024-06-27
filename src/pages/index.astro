@@ -1,16 +1,104 @@
----
-
----
-
 <html lang="en">
 	<head>
-		<meta charset="utf-8" />
+		<meta charset="UTF-8" />
+		<meta name="description" content="Worksop Tyres offers convenient mobile tyre fitting services in Worksop. Book online for at-home, work, or roadside tyre changes." />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<meta name="generator" content="Astro" />
+		<meta name="keywords" content="Worksop Tyres, mobile tyre service, tyre fitting, tyre change, same day fitting, next day fitting" />
+		<meta property="og:title" content="Worksop Tyres: Mobile Tyre Service" />
+		<meta property="og:description" content="We come to you for convenient tyre changes at home, work, or roadside. Open 7 days a week with free next day fitting and same day fitting available." />
+		<meta property="og:url" content="https://mytyrebookings.co.uk" />
+		<meta property="og:type" content="website" />
+		<meta property="og:image" content="/path/to/image.jpg" />
+		<title>Mobile Tyre Fitting in Worksop | Worksop Tyres</title>
 	</head>
 	<body>
-		<h1>Astro</h1>
+		<header>
+			<div class="container">
+				<a href="/" id="logo">Worksop Tyres</a>
+			</div>
+		</header>
+		<section id="hero">
+			<div class="container">
+				<h1>Worksop Tyres: Mobile Tyre Service</h1>
+				<h2>Tyre replacement at your convenience in Worksop.</h2>
+				<form action="https://mytyrebookings.co.uk" method="post">
+					<h3>Book Your Tyre Change Online</h3>
+					<input type="text" name="vrm" id="vrm" placeholder="Enter Reg" aria-label="Vehicle Registration">
+					<button type="submit">Go</button>
+				</form>
+			</div>
+		</section>
+		<main>
+			<div class="container">
+				<section>
+					<h2>Convenient Mobile Tyre Service</h2>
+					<p>At Worksop Tyres, we bring the tyre shop to you. Whether you're at home, work, or on the roadside, our mobile service ensures you never have to worry about reaching a garage. Our expert technicians provide top-quality tyre changes wherever you are.</p>
+				</section>
+				<section>
+					<h2>Flexible and Reliable Service</h2>
+					<p>We operate 7 days a week to accommodate your busy schedule. Enjoy the convenience of free next-day fitting, or get in touch for same-day service. Our commitment is to make tyre changes as seamless and stress-free as possible for our valued customers.</p>
+				</section>
+				<section>
+					<h2>Easy Online Booking</h2>
+					<p>Booking your tyre change has never been easier. Simply visit our website, select your preferred time and location, and let us handle the rest. Experience the unparalleled convenience and efficiency of our mobile tyre service today.</p>
+				</section>
+			</div>
+		</main>
 	</body>
 </html>
+<style>
+	body {
+		margin: 0px;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+	.container {
+		width: 95%;
+		max-width: 1000px;
+		margin: 0px auto;
+	}
+	header {
+		background-color: #379777;
+		padding: 20px 0px;
+		margin: 0px;
+	}
+	#logo {
+		color: #fff;
+		text-decoration: none;
+		font-weight: bold;
+		font-size: 1.5rem;
+	}
+	#hero {
+		text-align: center;
+		border-bottom: 1px solid black;
+		padding-bottom: 50px;
+	}
+	input {
+		background-color: yellow;
+		width: 200px;
+		text-align: center;
+	}
+	button {
+		background-color: #379777;
+		color: white;
+		cursor: pointer;
+	}
+	input, button {
+		font-size: 2rem;
+		text-transform: uppercase;
+		border-radius: 5px;
+		border: 1px solid black;
+		font-weight: bold;
+	}
+	#hero h2 {
+		margin-bottom: 50px;
+	}
+	h1 {
+		font-size: 3rem;
+		margin-bottom: 10px;
+	}
+	h2 {
+		font-size: 1.5rem;
+	}
+</style>
